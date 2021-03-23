@@ -3,12 +3,12 @@
 More about me
 
 ```kotlin
-@PostMapping("/aboutMe")
+@PostMapping("/about-me")
 fun processAboutMe(model: Model, introduction: Introduction): String {
     model.addAttribute("name", introduction.name)
     model.addAttribute("university", introduction.university)
     model.addAttribute("skills", introduction.skills)
-    return "aboutMe"
+    return "about-me"
 }
 
 data class Introduction(
