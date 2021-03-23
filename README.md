@@ -1,6 +1,6 @@
 <!-- ### Hi there 👋 -->
 
-More about me
+## About Me
 
 ```kotlin
 data class Introduction(
@@ -26,29 +26,7 @@ fun processAboutMe(model: Model, introduction: Introduction): String {
 }
 
 ```
-
-<!--
-```kotlin
-val mosTavassoli = webDeveloper {
-    about {
-        name = "Mostafa Tavassoli Norouzi"
-        university = "Politecnico di Torino"
-    }
-    skills("ReactJS",
-           "HTML/CSS", 
-           "Node Express", 
-           "Kotlin", 
-           "Spring MVC", 
-           "Spring WebFlux", 
-           "Android")
-    links {
-        linkedin = "https://www.linkedin.com/in/mostafa-tavassoli/"
-    }
-}
-``` 
--->
-
-
+## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/Code-ReactJS-informational?style=flat&logo=React&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-HTML-informational?style=flat&logo=html5&logoColor=white&color=2bbc8a)
@@ -62,13 +40,10 @@ val mosTavassoli = webDeveloper {
 ![](https://img.shields.io/badge/Tools-SonarCloud-informational?style=flat&logo=sonarCloud&logoColor=white&color=2bbc8a)
 
 
-
-
-
-<!--
+## &#x1f4c8; GitHub Stats
 <a href="https://github.com/mosTavassoli/mosTavassoli">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mosTavassoli&html&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
-</a> -->
+</a> 
 
 
 
