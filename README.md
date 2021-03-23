@@ -3,14 +3,6 @@
 More about me
 
 ```kotlin
-@PostMapping("/about-me")
-fun processAboutMe(model: Model, introduction: Introduction): String {
-    model.addAttribute("name", introduction.name)
-    model.addAttribute("university", introduction.university)
-    model.addAttribute("skills", introduction.skills)
-    return "about-me"
-}
-
 data class Introduction(
     val name: String = "Mostafa Tavassoli Norouzi",
     val university: String = "Politecnico di Torino",
@@ -24,6 +16,14 @@ data class Introduction(
         "Android"
     )
 )
+
+@PostMapping("/about-me")
+fun processAboutMe(model: Model, introduction: Introduction): String {
+    model.addAttribute("name", introduction.name)
+    model.addAttribute("university", introduction.university)
+    model.addAttribute("skills", introduction.skills)
+    return "about-me"
+}
 
 ```
 
