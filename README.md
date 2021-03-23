@@ -6,7 +6,7 @@ More about me
 data class Introduction(
     val name: String = "Mostafa Tavassoli Norouzi",
     val university: String = "Politecnico di Torino",
-    val skills: List<String> = mutableListOf(
+    val languageSkills: List<String> = mutableListOf(
         "ReactJS",
         "HTML/CSS",
         "Node Express",
