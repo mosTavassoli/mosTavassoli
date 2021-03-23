@@ -16,7 +16,8 @@ data class Introduction(
         "Android"
     )
 )
-
+```
+<!--
 @PostMapping("/about-me")
 fun processAboutMe(model: Model, introduction: Introduction): String {
     model.addAttribute("name", introduction.name)
@@ -24,8 +25,8 @@ fun processAboutMe(model: Model, introduction: Introduction): String {
     model.addAttribute("programmingLanguageSkills", introduction.programmingLanguageSkills)
     return "about-me"
 }
+-->
 
-```
 ## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/Code-ReactJS-informational?style=flat&logo=React&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
