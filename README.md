@@ -1,6 +1,33 @@
 <!-- ### Hi there 👋 -->
 
 More about me
+
+```kotlin
+@PostMapping("/aboutMe")
+fun processAboutMe(model: Model, introduction: Introduction): String {
+    model.addAttribute("name", introduction.name)
+    model.addAttribute("university", introduction.university)
+    model.addAttribute("skills", introduction.skills)
+    return "aboutMe"
+}
+
+data class Introduction(
+    val name: String = "Mostafa Tavassoli Norouzi",
+    val university: String = "Politecnico di Torino",
+    val skills: List<String> = mutableListOf(
+        "ReactJS",
+        "HTML/CSS",
+        "Node Express",
+        "Kotlin",
+        "Spring MVC",
+        "Spring WebFlux",
+        "Android"
+    )
+)
+
+```
+
+<!--
 ```kotlin
 val mosTavassoli = webDeveloper {
     about {
@@ -18,7 +45,8 @@ val mosTavassoli = webDeveloper {
         linkedin = "https://www.linkedin.com/in/mostafa-tavassoli/"
     }
 }
-```
+``` 
+-->
 
 <!--
 ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
