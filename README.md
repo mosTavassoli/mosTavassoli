@@ -6,7 +6,7 @@ More about me
 data class Introduction(
     val name: String = "Mostafa Tavassoli Norouzi",
     val university: String = "Politecnico di Torino",
-    val languageSkills: List<String> = mutableListOf(
+    val programmingLanguageSkills: List<String> = mutableListOf(
         "ReactJS",
         "HTML/CSS",
         "Node Express",
@@ -21,7 +21,7 @@ data class Introduction(
 fun processAboutMe(model: Model, introduction: Introduction): String {
     model.addAttribute("name", introduction.name)
     model.addAttribute("university", introduction.university)
-    model.addAttribute("skills", introduction.skills)
+    model.addAttribute("programmingLanguageSkills", introduction.programmingLanguageSkills)
     return "about-me"
 }
 
