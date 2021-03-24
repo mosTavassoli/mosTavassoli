@@ -3,7 +3,7 @@
 ## About Me
 
 ```kotlin
-data class Introduction(
+data class AboutMe(
     val name: String = "Mostafa Tavassoli Norouzi",
     val university: String = "Politecnico di Torino",
     val programmingLanguageSkills: List<String> = mutableListOf(
