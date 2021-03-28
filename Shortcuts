@@ -1,0 +1,15 @@
+/*
+    ctrl + E ===> open Recent Files
+    ctrl + NumPad-1 : show the current file on project view, active select file in Project view
+    ctrl + shift + f  ===> search on file/ find in files
+    ctrl + shift + f12 ===> maximize the current page, the editor/ hide all windows
+    ctrl + w ===> extend selection
+    ctrl + shift + arrow keys up/down ===> Move selection
+    ctrl + alt + l ===> Reformat Code
+    ctrl + shift + N ===> Open search EveryWhere plane
+    double ctrl ===> open Run Anything
+    ctrl + shift + j ===> join the multiline string lines together
+    alt + shift + clickMouse ===> can select different place and change it all together
+    alt + J ===> Add selection for next Occurrence(select a Word multiple time in the code)
+    shift + F6 ===> Rename
+*/
