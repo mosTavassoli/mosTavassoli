@@ -12,4 +12,5 @@
     alt + shift + clickMouse ===> can select different place and change it all together
     alt + J ===> Add selection for next Occurrence(select a Word multiple time in the code)
     shift + F6 ===> Rename
+    Ctrl+Shift+\ ===>	Remove Block Comment
 */
