@@ -37,6 +37,7 @@ fun processAboutMe(model: Model, introduction: Introduction): String {
 ![](https://img.shields.io/badge/Code-Kotlin-informational?style=flat&logo=kotlin&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-Android-informational?style=flat&logo=android&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/IDE-IntelliJ_IDEA-informational?style=flat&logo=intellij-idea&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/IDE-VSCode-informational?style=flat&logo=visual-studio-code&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tools-Jira-informational?style=flat&logo=Atlassian&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tools-SonarCloud-informational?style=flat&logo=sonarCloud&logoColor=white&color=2bbc8a)
