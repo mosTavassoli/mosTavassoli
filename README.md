@@ -22,7 +22,7 @@ data class AboutMe(
     )
     
     var softwareDevelopmentTechnologies: List<String> = mutableListOf(
-        "Git",
+        "GIT",
         "Agile Scrum",
     )
 )
