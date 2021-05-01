@@ -6,21 +6,24 @@
 data class AboutMe(
     val name: String = "Mostafa Tavassoli Norouzi",
     val university: String = "Politecnico di Torino",
+    
     var programmingLanguageSkills: List<String> = mutableListOf(
         "Kotlin",
         "Java",
         "JavaScript",
         "C"
     )
+    
     var librariesAndFrameworks: List<String> = mutableListOf(
         "ReactJS",
         "Node Express",
         "Spring MVC",
         "Spring WebFlux"
     )
+    
     var softwareDevelopmentTechnologies: List<String> = mutableListOf(
         "Git",
-        "Agile methodology",
+        "Agile Scrum",
     )
 )
 ```
