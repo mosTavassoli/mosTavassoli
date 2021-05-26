@@ -2,6 +2,8 @@
 
 ## About Me
 
+<img src= "https://media-exp1.licdn.com/dms/image/C4E16AQFAgCQnDDoi8A/profile-displaybackgroundimage-shrink_200_800/0/1622060747337?e=1627516800&v=beta&t=BIKVJS1jjq_crnKtLQeW1hItqjlWaXjH-VVadEzsCw0" width="100%" />
+
 ```kotlin
 data class AboutMe(
 
