@@ -1,4 +1,5 @@
 <!-- ### Hi there 👋 -->
+<!-- Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -->
 
 ## About Me
 
