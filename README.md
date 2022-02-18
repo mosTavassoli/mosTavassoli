@@ -3,7 +3,7 @@
 
 ## About Me
 
-<img src= "https://media-exp3.licdn.com/dms/image/C4E16AQGrOd2w2vu5yA/profile-displaybackgroundimage-shrink_350_1400/0/1622061534361?e=1629936000&v=beta&t=Y2INdu010Ox7uWu0nXZvsRTwmuHzfeiHbDDEIUS5UZQ" width="100%" />
+<img src= "https://media-exp1.licdn.com/dms/image/C4D16AQE3-O-zkXzC5w/profile-displaybackgroundimage-shrink_350_1400/0/1644230996276?e=1650499200&v=beta&t=tM5TNQQnMHLyl9EjBctyCC4C1OFhyxWvDwZ1ThYQNyY" width="100%" />
 
 ```kotlin
 data class AboutMe(
