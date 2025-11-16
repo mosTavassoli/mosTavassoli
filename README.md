@@ -8,30 +8,26 @@
 ```kotlin
 data class AboutMe(
 
-    val name: String = "Mostafa Tavassoli Norouzi",
-    val university: String = "Politecnico Di Torino",
+    val name: String = "Mostafa Tavassoli",
     
     var programmingLanguageSkills: List<String> = mutableListOf(
         "Kotlin",
         "Java",
         "JavaScript",
-        "C"
+        "Python"
     ),
     
     var librariesAndFrameworks: List<String> = mutableListOf(
-        "ReactJS",
-        "Node Express",
-        "Spring MVC",
-        "Spring WebFlux"
+        "Vue.js",
+        "Starlette",
+        "Spring",
+        "Quarkus"
     ),
     
     var softwareDevelopmentTechnologies: List<String> = mutableListOf(
         "GIT",
         "Agile Scrum"
     ),
-    
-    var mobilePlatform: String = "Android"
-    
 )
 ```
 <!--
